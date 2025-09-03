@@ -1,6 +1,8 @@
 #define R_LED 18   // 첫 번째 LED 핀
 #define G_LED 17  // 두 번째 LED 핀
 
+// Group1 수정 내용 사항
+
 unsigned long previousMillis = 0; // 마지막으로 LED 상태를 바꾼 시간 저장
 const long interval = 2000;       // 2초 간격으로 LED 상태 변경
 
